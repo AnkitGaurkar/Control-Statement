@@ -1,0 +1,35 @@
+package com;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Demo {
+	
+	public static void main(String[]args)
+	{
+		
+		String s="Amravati,India";
+		
+		if(s.endsWith("India"))
+		{
+			if(s.contains("Amravati"))
+			{
+				System.out.println("You are living in amravati");
+			}
+		
+		else if(s.contains("Mumbai"))
+		{
+			System.out.println("YOu are living in Mumbai");
+		}
+		else
+		{
+			System.out.println(s.split(",")[0]);
+		}
+			}
+	
+		else
+		{
+			System.out.println("YOu are not living in India");
+		}
+	}
+	}
